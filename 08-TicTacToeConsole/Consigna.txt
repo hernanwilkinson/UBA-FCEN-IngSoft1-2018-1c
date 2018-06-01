@@ -1,5 +1,7 @@
 Implementar por medio de TDD lo necesario para que se pueda tener una consola (log) y una vista sobre el TicTacToe sin que este lo sepa. O sea, el TicTacToe no debe saber que una consola o una vista están atentos a los cambios que se produce en él.
-La solución debe permitir sin ser modificada, agregar nuevos objetos atentos a los cambios del TicTacToe (por ejemplo uno que genere un post de http por cada cambio).
+También es necesario que el TicTacToe sepa responder cual fue la última jugada por medio del mensaje #lastPlay.
+La solución FINAL debe permitir sin ser modificada, agregar nuevos objetos atentos a los cambios del TicTacToe (por ejemplo uno que genere un post de http por cada cambio).
+Durante el camino a la solución final se pueden hacer "chanchadas", tener código repetido, no cumplir con la consigna anterior, etc. Traten de descubrir el patrón por medio de un desarrollo iterativo-incremental, siguiendo TDD. 
 
 Ejemplo de qué se debe observar en la consola cuando se juega con un juego recién iniciado:
 Acciones: 
